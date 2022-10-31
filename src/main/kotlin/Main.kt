@@ -17,7 +17,8 @@ fun main(args: Array<String>) {
     val distance = sqrt(x * x + y * y)
 
     val result =
-        if (distance > r) {
+        if (distance > r)
+        {
         "Точка за пределом круга"
         }
         else
